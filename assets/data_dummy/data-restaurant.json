@@ -1,0 +1,183 @@
+[
+  {
+    "name": "CFC",
+    "location": "Jalan KS tubun 1 No. 7, Kel. kota bambu selatan, palmerah",
+    "rating": "4",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora alias, recusandae expedita labore vel, esse repudiandae dolore ipsa distinctio nemo, eveniet hic dolores. Rerum provident ipsa sint voluptates at fuga, nobis totam optio officiis maxime sed quis rem assumenda corrupti veritatis, error harum. Excepturi velit error veniam nobis doloremque. Ipsa ex voluptatibus hic aliquid perferendis animi quod maxime deserunt quasi eligendi iure voluptates, temporibus qui reprehenderit fugiat mollitia sint necessitatibus illum nam. Vero cupiditate voluptatibus nulla, quae nam aperiam eligendi harum non vitae omnis quos reprehenderit dicta eos accusantium voluptatum, deserunt consequatur eum animi necessitatibus? Ex aperiam harum velit aliquid.",
+    "urlImage": "https://seeklogo.com/images/C/cfc-logo-79608E5914-seeklogo.com.png",
+    "menu": [
+      {
+        "name": "PAKET ASTAGA 1",
+        "price": "15.000",
+        "urlImageMenu": "https://www.cfcindonesia.com/img/produk/paket-astaga-1.jpg"
+      },
+      {
+        "name": "PAKET ASTAGA 1",
+        "price": "25000",
+        "urlImageMenu": "https://www.cfcindonesia.com/img/produk/paket-astaga-2.jpg"
+      },
+      {
+        "name": "CFC GEBOKS COMBO",
+        "price": "89.000",
+        "urlImageMenu": "https://www.cfcindonesia.com/img/produk/cfc-geboks-combo.jpg"
+      },
+      {
+        "name": "SPAGHETTI CHICKEN PEPPER",
+        "price": "18.000",
+        "urlImageMenu": "https://www.cfcindonesia.com/img/produk/2-spaghetti-ayam-pepper-teriyaki-.jpg"
+      },
+      {
+        "name": "SPAGHETTY AYAM",
+        "price": "18.000",
+        "urlImageMenu": "https://www.cfcindonesia.com/img/produk/1-spaghetti-ayam.jpg"
+      },
+      {
+        "name": "COCA-COLA",
+        "price": "8.000",
+        "urlImageMenu": "https://www.cfcindonesia.com/img/produk/soft-drink.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Ayam Geprek Gold Chick",
+    "location": "Jl. Panjang Raya Kampung Baru No.40, Sukabumi Selatan",
+    "rating": "3",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora alias, recusandae expedita labore vel, esse repudiandae dolore ipsa distinctio nemo, eveniet hic dolores. Rerum provident ipsa sint voluptates at fuga, nobis totam optio officiis maxime sed quis rem assumenda corrupti veritatis, error harum. Excepturi velit error veniam nobis doloremque. Ipsa ex voluptatibus hic aliquid perferendis animi quod maxime deserunt quasi eligendi iure voluptates, temporibus qui reprehenderit fugiat mollitia sint necessitatibus illum nam. Vero cupiditate voluptatibus nulla, quae nam aperiam eligendi harum non vitae omnis quos reprehenderit dicta eos accusantium voluptatum, deserunt consequatur eum animi necessitatibus? Ex aperiam harum velit aliquid.",
+    "urlImage": "https://scontent.fcgk27-1.fna.fbcdn.net/v/t1.6435-9/67139694_2588805521130660_3911497793880981504_n.jpg?_nc_cat=100&ccb=1-4&_nc_sid=973b4a&_nc_ohc=53fCCPj03YMAX-DzOap&_nc_ht=scontent.fcgk27-1.fna&oh=dbf4076dfff6b570c9108ab5e56dc725&oe=613397B7",
+    "menu": []
+  },
+  {
+    "name": "KFC",
+    "location": "Jl. Tanjung Gedong Raya No.24, (Samping UNTAR Kampus 1)",
+    "rating": "4",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora alias, recusandae expedita labore vel, esse repudiandae dolore ipsa distinctio nemo, eveniet hic dolores. Rerum provident ipsa sint voluptates at fuga, nobis totam optio officiis maxime sed quis rem assumenda corrupti veritatis, error harum. Excepturi velit error veniam nobis doloremque. Ipsa ex voluptatibus hic aliquid perferendis animi quod maxime deserunt quasi eligendi iure voluptates, temporibus qui reprehenderit fugiat mollitia sint necessitatibus illum nam. Vero cupiditate voluptatibus nulla, quae nam aperiam eligendi harum non vitae omnis quos reprehenderit dicta eos accusantium voluptatum, deserunt consequatur eum animi necessitatibus? Ex aperiam harum velit aliquid.",
+    "urlImage": "https://seeklogo.com/images/K/kfc-logo-81CF66A86D-seeklogo.com.png",
+    "menu": [
+      {
+        "name": "FISH FILLET COMBO",
+        "price": "24.000",
+        "urlImageMenu": "https://files.kfcku.com/uploads/media/dummy/food/kfc-web_fishfilletc_l.png"
+      },
+      {
+        "name": "CRISPY BOX",
+        "price": "32.000",
+        "urlImageMenu": "https://files.kfcku.com/uploads/media/dummy/food/kfc-web_crispy-box_l.png"
+      },
+      {
+        "name": "KRISPY BURGER",
+        "price": "20.000",
+        "urlImageMenu": "https://files.kfcku.com/uploads/media/food-menu/praktis/large/kfc-web_zuper-krunch_l_2.png"
+      }
+    ]
+  },
+  {
+    "name": "McDonald's",
+    "location": "Jl. Raya Kresek Rt. 01/12 Duri Kosambi Cengkareng, Jakarta Barat ",
+    "rating": "4",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora alias, recusandae expedita labore vel, esse repudiandae dolore ipsa distinctio nemo, eveniet hic dolores. Rerum provident ipsa sint voluptates at fuga, nobis totam optio officiis maxime sed quis rem assumenda corrupti veritatis, error harum. Excepturi velit error veniam nobis doloremque. Ipsa ex voluptatibus hic aliquid perferendis animi quod maxime deserunt quasi eligendi iure voluptates, temporibus qui reprehenderit fugiat mollitia sint necessitatibus illum nam. Vero cupiditate voluptatibus nulla, quae nam aperiam eligendi harum non vitae omnis quos reprehenderit dicta eos accusantium voluptatum, deserunt consequatur eum animi necessitatibus? Ex aperiam harum velit aliquid.",
+    "urlImage": "https://seeklogo.com/images/M/mcdonald-s-logo-0D95A820B2-seeklogo.com.png",
+    "menu": [
+      {
+        "name": "Egg and Cheese Muffin",
+        "price": "25.000",
+        "urlImageMenu": "https://nos.jkt-1.neo.id/mcdonalds/foods/October2019/9FcgMqqWSFYjE6edaOAL.png"
+      },
+      {
+        "name": "McSpicy Yakiniku Burger",
+        "price": "50.000",
+        "urlImageMenu": "https://nos.jkt-1.neo.id/mcdonalds/foods/June2021/wtKlGRRan84WWRPIlv59.png"
+      },
+      {
+        "name": "PaNas 2 with Fries",
+        "price": "38.000",
+        "urlImageMenu": "https://nos.jkt-1.neo.id/mcdonalds/foods/August2019/dBkLAEZ7PxkjdgarPMbz.png"
+      }
+    ]
+  },
+  {
+    "name": "A&W",
+    "location": "Jl. Meruya Ilir Raya No.H-1/15-16, RW03, Meruya Utara, Kembangan",
+    "rating": "2",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora alias, recusandae expedita labore vel, esse repudiandae dolore ipsa distinctio nemo, eveniet hic dolores. Rerum provident ipsa sint voluptates at fuga, nobis totam optio officiis maxime sed quis rem assumenda corrupti veritatis, error harum. Excepturi velit error veniam nobis doloremque. Ipsa ex voluptatibus hic aliquid perferendis animi quod maxime deserunt quasi eligendi iure voluptates, temporibus qui reprehenderit fugiat mollitia sint necessitatibus illum nam. Vero cupiditate voluptatibus nulla, quae nam aperiam eligendi harum non vitae omnis quos reprehenderit dicta eos accusantium voluptatum, deserunt consequatur eum animi necessitatibus? Ex aperiam harum velit aliquid.",
+    "urlImage": "https://seeklogo.com/images/A/A_and_W-logo-4C25ECD032-seeklogo.com.png",
+    "menu": [
+      {
+        "name": "Hot Dog",
+        "price": "25.000",
+        "urlImageMenu": "https://awrestaurants.com/sites/default/files/hotdog_0.png"
+      },
+      {
+        "name": "Papa Burger",
+        "price": "50.000",
+        "urlImageMenu": "https://awrestaurants.com/sites/default/files/papaburger.png"
+      },
+      {
+        "name": "2 Chicken Sliders",
+        "price": "65.000",
+        "urlImageMenu": "https://awrestaurants.com/sites/default/files/2%20Chicken%20Sliders.png"
+      }
+    ]
+  },
+  {
+    "name": "Burger King",
+    "location": "Jln. Pancoran barat VII Rt 08 Rw 06 no 20, RW03, Meruya Utara",
+    "rating": "1",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora alias, recusandae expedita labore vel, esse repudiandae dolore ipsa distinctio nemo, eveniet hic dolores. Rerum provident ipsa sint voluptates at fuga, nobis totam optio officiis maxime sed quis rem assumenda corrupti veritatis, error harum. Excepturi velit error veniam nobis doloremque. Ipsa ex voluptatibus hic aliquid perferendis animi quod maxime deserunt quasi eligendi iure voluptates, temporibus qui reprehenderit fugiat mollitia sint necessitatibus illum nam. Vero cupiditate voluptatibus nulla, quae nam aperiam eligendi harum non vitae omnis quos reprehenderit dicta eos accusantium voluptatum, deserunt consequatur eum animi necessitatibus? Ex aperiam harum velit aliquid.",
+    "urlImage": "https://www.marketeers.com/wp-content/uploads/2021/01/LOGO-bURGER-kiNG-LAMA-1024x576.jpg",
+    "menu": [
+      {
+        "name": "Single Bacon King",
+        "price": "25.000",
+        "urlImageMenu": "https://cdn.sanity.io/images/czqk28jt/prod_bk_us/55bc20953ad9c82eb6d9dc496546883e520e60f3-1333x1333.png?w=320&q=40&fit=max&auto=format"
+      },
+      {
+        "name": "Ch'King Sandwich",
+        "price": "25.000",
+        "urlImageMenu": "https://cdn.sanity.io/images/czqk28jt/prod_bk_us/c51adea9d284353f890808a54df049a02247d85c-1333x1333.png?w=320&q=40&fit=max&auto=format"
+      }
+    ]
+  },
+  {
+    "name": "Haus",
+    "location": "Jl. Kyai HJ Syahdan No.1, Depan Makaroni Ngehe",
+    "rating": "4",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora alias, recusandae expedita labore vel, esse repudiandae dolore ipsa distinctio nemo, eveniet hic dolores. Rerum provident ipsa sint voluptates at fuga, nobis totam optio officiis maxime sed quis rem assumenda corrupti veritatis, error harum. Excepturi velit error veniam nobis doloremque. Ipsa ex voluptatibus hic aliquid perferendis animi quod maxime deserunt quasi eligendi iure voluptates, temporibus qui reprehenderit fugiat mollitia sint necessitatibus illum nam. Vero cupiditate voluptatibus nulla, quae nam aperiam eligendi harum non vitae omnis quos reprehenderit dicta eos accusantium voluptatum, deserunt consequatur eum animi necessitatibus? Ex aperiam harum velit aliquid.",
+    "urlImage": "https://scontent.fcgk27-1.fna.fbcdn.net/v/t1.6435-9/95387042_107781334258681_4019800153073385472_n.png?_nc_cat=109&ccb=1-4&_nc_sid=09cbfe&_nc_ohc=8xrnANPrZUQAX8isg7x&_nc_ht=scontent.fcgk27-1.fna&oh=c281e504b4d03589da2b8a2b4f559f8f&oe=61369A99",
+    "menu": [
+      {
+        "name": "Red Velvet",
+        "price": "13.000",
+        "urlImageMenu": "http://haus.co.id/img/images/home/menu/Red%20Velvet.png"
+      },
+      {
+        "name": "Ice Thai Tea",
+        "price": "9.000",
+        "urlImageMenu": "http://haus.co.id/img/images/home/menu/Thaitea.png"
+      },
+      {
+        "name": "Ice Taro",
+        "price": "13.000",
+        "urlImageMenu": "http://haus.co.id/img/images/home/menu/Taro.png"
+      }
+    ]
+  },
+  {
+    "name": "Starbucks",
+    "location": "Jl .Menceng Raya No.29 RT 10/11,Tegal Alur, Kali Deres",
+    "rating": "5",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora alias, recusandae expedita labore vel, esse repudiandae dolore ipsa distinctio nemo, eveniet hic dolores. Rerum provident ipsa sint voluptates at fuga, nobis totam optio officiis maxime sed quis rem assumenda corrupti veritatis, error harum. Excepturi velit error veniam nobis doloremque. Ipsa ex voluptatibus hic aliquid perferendis animi quod maxime deserunt quasi eligendi iure voluptates, temporibus qui reprehenderit fugiat mollitia sint necessitatibus illum nam. Vero cupiditate voluptatibus nulla, quae nam aperiam eligendi harum non vitae omnis quos reprehenderit dicta eos accusantium voluptatum, deserunt consequatur eum animi necessitatibus? Ex aperiam harum velit aliquid.",
+    "urlImage": "https://image.shutterstock.com/image-photo/image-260nw-197324327.jpg",
+    "menu": [
+      {
+        "name": "CAFFÈ LATTE",
+        "price": "65.000",
+        "urlImageMenu": "https://www.starbucks.co.id/media/01%20-%20Hot%20Caffe%20Latte_tcm33-46284_w1024_n.jpg"
+      },
+      {
+        "name": "CAPPUCCINO",
+        "price": "55.000",
+        "urlImageMenu": "https://www.starbucks.co.id/media/02%20-%20Hot%20Cappucino_tcm33-46285_w1024_n.jpg"
+      }
+    ]
+  }
+]
