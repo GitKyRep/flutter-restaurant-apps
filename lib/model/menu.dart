@@ -1,14 +1,10 @@
 class Menu {
   late String name;
-  late String price;
-  late String urlImageMenu;
 
-  Menu({required this.name, required this.price, required this.urlImageMenu});
+  Menu({required this.name});
 
   Menu.fromJson(Map<String, dynamic> menu) {
     name = menu['name'] ?? "";
-    price = menu['price'] ?? "";
-    urlImageMenu = menu['urlImageMenu'] ?? "";
   }
 }
 

@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:restaurant_apps/model/restaurant.dart';
 import 'package:restaurant_apps/pages/detail_page.dart';
+import 'package:restaurant_apps/services/restaurant_services.dart';
 import 'package:restaurant_apps/widgets/card_restaurant.dart';
 import 'package:restaurant_apps/widgets/search_bar.dart';
 
@@ -19,6 +20,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   TextEditingController searchController = TextEditingController();
   String keyword = "";
+  var _service = RestaurantServices();
 
   Future<bool> _onWillPop() async {
     if (Platform.isAndroid) {
@@ -76,9 +78,8 @@ class _HomePageState extends State<HomePage> {
                 SizedBox(
                   height: 10,
                 ),
-                FutureBuilder<String>(
-                  future: DefaultAssetBundle.of(context)
-                      .loadString('assets/data_dummy/data-restaurant.json'),
+                FutureBuilder(
+                  future: _service.readJsonData(),
                   builder: (context, snapshot) {
                     if (snapshot.connectionState == ConnectionState.waiting) {
                       return CircularProgressIndicator();
@@ -96,9 +97,9 @@ class _HomePageState extends State<HomePage> {
                       } else if (snapshot.hasData) {
                         final List<Restaurant> restaurants;
                         if (keyword == "") {
-                          restaurants = parseJson(snapshot.data);
+                          restaurants = snapshot.data as List<Restaurant>;
                         } else {
-                          restaurants = parseJson(snapshot.data)
+                          restaurants = (snapshot.data as List<Restaurant>)
                               .where((data) =>
                                   data.name.toLowerCase().contains(keyword))
                               .toList();

@@ -12,20 +12,23 @@ class CardMenu extends StatelessWidget {
     return Container(
       margin: EdgeInsets.only(left: 16),
       child: Column(
+        mainAxisSize: MainAxisSize.min,
         children: [
           ClipRRect(
             borderRadius: BorderRadius.circular(8),
             child: FadeInImage(
               width: 150,
               height: 80,
-              fit: BoxFit.cover,
-              image: NetworkImage(menu.urlImageMenu),
+              fit: BoxFit.fitHeight,
+              image: AssetImage(
+                "assets/images/logo.png",
+              ),
               placeholder: AssetImage(
-                "assets/images/default-placeholder.png",
+                "assets/images/logo.png",
               ),
               imageErrorBuilder: (context, error, stackTrace) {
                 return Image.asset(
-                  'assets/images/default-placeholder.png',
+                  'assets/images/logo.png',
                   width: 150,
                   height: 80,
                 );
@@ -42,12 +45,6 @@ class CardMenu extends StatelessWidget {
                 Text(
                   menu.name,
                   style: blackTextStyle.copyWith(
-                    fontSize: 12,
-                  ),
-                ),
-                Text(
-                  "Rp. ${menu.price}",
-                  style: regularTextStyle.copyWith(
                     fontSize: 12,
                   ),
                 ),

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:restaurant_apps/model/menu.dart';
 import 'package:restaurant_apps/model/restaurant.dart';
 import 'package:restaurant_apps/theme.dart';
 import 'package:restaurant_apps/widgets/card_menu.dart';
-import 'package:restaurant_apps/widgets/card_rating.dart';
 
 class DetailPage extends StatefulWidget {
   final Restaurant data;
@@ -19,7 +19,8 @@ class _DetailPageState extends State<DetailPage> {
 
   @override
   Widget build(BuildContext context) {
-    final List<Menu> menus = parseMenu(widget.data.menus);
+    final List<Menu> foods = parseMenu(widget.data.foods);
+    final List<Menu> drinks = parseMenu(widget.data.drinks);
 
     return Scaffold(
       backgroundColor: whiteColor,
@@ -33,7 +34,7 @@ class _DetailPageState extends State<DetailPage> {
                 width: MediaQuery.of(context).size.width,
                 height: 350,
                 fit: BoxFit.cover,
-                image: NetworkImage(widget.data.urlImage),
+                image: NetworkImage(widget.data.pictureId),
                 placeholder:
                     AssetImage("assets/images/default-placeholder.png"),
                 imageErrorBuilder: (context, error, stackTrace) {
@@ -81,17 +82,20 @@ class _DetailPageState extends State<DetailPage> {
                             SizedBox(
                               height: 2,
                             ),
-                            Row(
-                              children: [1, 2, 3, 4, 5].map((index) {
-                                return Container(
-                                  margin: EdgeInsets.only(left: 2),
-                                  child: CardRating(
-                                    index: index,
-                                    rating: int.parse(widget.data.rating),
-                                  ),
-                                );
-                              }).toList(),
-                            )
+                            RatingBar.builder(
+                              initialRating: widget.data.rating.toDouble(),
+                              itemSize: 24.0,
+                              direction: Axis.horizontal,
+                              allowHalfRating: true,
+                              itemCount: 5,
+                              itemBuilder: (context, _) => Icon(
+                                Icons.star,
+                                color: Colors.amber,
+                              ),
+                              onRatingUpdate: (rating) {
+                                print(rating);
+                              },
+                            ),
                           ],
                         ),
                       ),
@@ -107,13 +111,14 @@ class _DetailPageState extends State<DetailPage> {
                             Icon(
                               Icons.pin_drop,
                               size: 16,
+                              color: Colors.red,
                             ),
                             SizedBox(
                               width: 10,
                             ),
                             Expanded(
                               child: Text(
-                                widget.data.location,
+                                widget.data.city,
                                 style: regularTextStyle.copyWith(fontSize: 12),
                               ),
                             ),
@@ -147,7 +152,7 @@ class _DetailPageState extends State<DetailPage> {
                       Padding(
                         padding: EdgeInsets.symmetric(horizontal: dimens),
                         child: Text(
-                          "Daftar Menu",
+                          "Makanan",
                           style: regularTextStyle.copyWith(fontSize: 16),
                         ),
                       ),
@@ -156,8 +161,8 @@ class _DetailPageState extends State<DetailPage> {
                       ),
                       Container(
                         padding: EdgeInsets.symmetric(horizontal: dimens),
-                        height: 150,
-                        child: menus.isEmpty
+                        height: 120,
+                        child: foods.isEmpty
                             ? Text(
                                 "Tidak ada menu",
                                 style: regularTextStyle.copyWith(
@@ -167,7 +172,39 @@ class _DetailPageState extends State<DetailPage> {
                               )
                             : ListView(
                                 scrollDirection: Axis.horizontal,
-                                children: menus.map((item) {
+                                children: foods.map((item) {
+                                  return CardMenu(menu: item);
+                                }).toList(),
+                              ),
+                      ),
+                      SizedBox(
+                        height: 4,
+                      ),
+                      // Note : Menu
+                      Padding(
+                        padding: EdgeInsets.symmetric(horizontal: dimens),
+                        child: Text(
+                          "Minuman",
+                          style: regularTextStyle.copyWith(fontSize: 16),
+                        ),
+                      ),
+                      SizedBox(
+                        height: 12,
+                      ),
+                      Container(
+                        padding: EdgeInsets.symmetric(horizontal: dimens),
+                        height: 120,
+                        child: drinks.isEmpty
+                            ? Text(
+                                "Tidak ada menu",
+                                style: regularTextStyle.copyWith(
+                                  fontSize: 12,
+                                ),
+                                textAlign: TextAlign.center,
+                              )
+                            : ListView(
+                                scrollDirection: Axis.horizontal,
+                                children: drinks.map((item) {
                                   return CardMenu(menu: item);
                                 }).toList(),
                               ),

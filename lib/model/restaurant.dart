@@ -1,35 +1,32 @@
-import 'dart:convert';
-
 class Restaurant {
+  late String id;
   late String name;
-  late String location;
-  late String rating;
   late String description;
-  late String urlImage;
-  late List<dynamic> menus;
+  late String pictureId;
+  late String city;
+  late num rating;
+  late List<dynamic> foods;
+  late List<dynamic> drinks;
 
-  Restaurant(
-      {required this.name,
-      required this.location,
-      required this.rating,
-      required this.description,
-      required this.urlImage,
-      required this.menus});
+  Restaurant({
+    required this.id,
+    required this.name,
+    required this.description,
+    required this.pictureId,
+    required this.city,
+    required this.rating,
+    required this.foods,
+    required this.drinks,
+  });
 
   Restaurant.fromJson(Map<String, dynamic> restaurant) {
+    id = restaurant['id'] ?? "";
     name = restaurant['name'] ?? "";
-    location = restaurant['location'];
-    description = restaurant['description'];
+    description = restaurant['description'] ?? "";
+    pictureId = restaurant['pictureId'] ?? "";
+    city = restaurant['city'] ?? "";
     rating = restaurant['rating'];
-    urlImage = restaurant['urlImage'];
-    menus = restaurant['menu'];
+    foods = restaurant['menus']["foods"];
+    drinks = restaurant['menus']["drinks"];
   }
-}
-
-List<Restaurant> parseJson(String? json) {
-  if (json == null) {
-    return [];
-  }
-  final List parsed = jsonDecode(json);
-  return parsed.map((json) => Restaurant.fromJson(json)).toList();
 }

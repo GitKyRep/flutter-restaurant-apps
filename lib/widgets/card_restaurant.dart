@@ -33,7 +33,7 @@ class CardRestaurant extends StatelessWidget {
                       tag: mRestaurant.name,
                       child: FadeInImage(
                         fit: BoxFit.cover,
-                        image: NetworkImage(mRestaurant.urlImage),
+                        image: NetworkImage(mRestaurant.pictureId),
                         placeholder:
                             AssetImage("assets/images/default-placeholder.png"),
                         imageErrorBuilder: (context, error, stackTrace) {
@@ -77,7 +77,7 @@ class CardRestaurant extends StatelessWidget {
                       ),
                       Expanded(
                         child: Text(
-                          mRestaurant.location,
+                          mRestaurant.city,
                           style: greyTextStyle.copyWith(fontSize: 12),
                         ),
                       ),
@@ -99,7 +99,7 @@ class CardRestaurant extends StatelessWidget {
                         width: 5,
                       ),
                       Text(
-                        "${mRestaurant.rating} / 5",
+                        mRestaurant.rating.toString(),
                         style: greyTextStyle.copyWith(fontSize: 12),
                       ),
                     ],
